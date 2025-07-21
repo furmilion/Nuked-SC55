@@ -1,6 +1,8 @@
 # Nuked SC-55
 Roland SC-55 emulator, by nukeykt.
 
+## This fork is solely for personal use
+
 Supported models:
 - SC-55mk2/SC-155mk2 (v1.01 firmware is confirmed to work)
 - SC-55mk1 (v1.0/v1.21/v2.0 firmwares are confirmed to work)
@@ -150,6 +152,8 @@ R15209281 (WAVE C) -> sc155_waverom3.bin
 - Nuked SC-55 will listen to the specified MIDI IN port (default is port 0). Use `-p:<port_number>` command line argument to specify port number. To use it with the other applications use external MIDI pipe software (e.g. loopMIDI).
 
 - SC-55mk2/SC-55mk1 buttons are mapped as such (currently hardcoded):
+
+- i will rebind these beause my keyboard decides to not let me hold certain key combos
 
 ```
 Q -> POWER
